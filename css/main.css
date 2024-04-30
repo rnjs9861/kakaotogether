@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    gap: 2.56%
+}
+.left{
+    width: 71.79%;
+}
+
+.right{
+    width: 25.64%;
+}
