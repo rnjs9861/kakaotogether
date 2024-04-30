@@ -1,5 +1,11 @@
 .main{
     display: flex;
+    width: calc(100% - 30px);
+    max-width: 1170px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+
     gap: 2.56%
 }
 .left{
