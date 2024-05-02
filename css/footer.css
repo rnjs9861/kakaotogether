@@ -1,13 +1,12 @@
 .footer{
     border-top: 1px solid #e6e5e6;
-    margin: 100px auto;
-    
+padding:40px 0px 45px;    
     justify-content: space-between;
-
+    background-color: white;
 }
 
 .footer-inner{
-    width: calc(100% - 30px);
+    width: 1170px;
     max-width: 1170px;
     align-items: center;
     margin: auto;
