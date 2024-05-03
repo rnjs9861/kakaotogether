@@ -43,6 +43,12 @@
   
   }
 
+  .left2-third-first-below{
+    padding:12px 0px 0px 0px;
+  }
+
+
+
 .left2-third-first-below-1{
     line-height: 20px;
     font-size:14px;
@@ -50,6 +56,12 @@
 
 .left2-third-first-below-2{
     font-size:12px;
+    margin:2px 0px 0px 0px;
+}
+
+.left2-third-first-below-3{
+  
+  margin:8px 0px 0px 0px;
 }
 
 .left2-third-first-below-4-left{
@@ -83,3 +95,21 @@
 }
 
 
+
+
+
+.progressbar2::-webkit-progress-bar {
+  appearance: none;
+  width: 199.97px;
+  height:2px;
+  border-radius: 999px;
+  background-color:rgb(233, 233, 233);;
+
+
+}
+.progressbar2::-webkit-progress-value{
+  border-radius: 999px;
+  background-color:red;
+
+
+}

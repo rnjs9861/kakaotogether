@@ -18,32 +18,57 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 193.86px;
+    height: 250px;
     
     
 }
 
 .left4-right-1{
     font-size: 13px;
+    height:21.7px;
+    padding:10px 0px 0px 0px;
 
 }
 
 .left4-right-2{
     font-size: 20px;
-    padding: 3px;
+    padding: 3px 0px 0px 0px;
+    height:34.19;
 }
 .left4-right-3{
-    font-size: 11px;
-    padding: 11px;
+    font-size: 14px;
+    padding: 11px 0px 0px 0px;
+    height:69px;
 
 }
 
 .left4-right-4{
-    padding: 11px;
+    padding: 16px 0px 0px 0px;
+    align-items: center;
 
 }
 .left4-right-5{
+    display: flex;
+    justify-content: space-between;
     font-size: 14px;
-    padding: 6px;
+    padding: -10px 0px 0px 0px;
+    height: 27.97px;
 
 }
+
+
+.progressbar4::-webkit-progress-bar {
+    appearance: none;
+    width: 390px;
+    height:4px !important;
+    border-radius: 999px;
+    background-color:rgb(233, 233, 233);;
+  
+  
+  }
+  .progressbar4::-webkit-progress-value{
+    border-radius: 999px;
+    background-color:red;
+  
+  
+  }

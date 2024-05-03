@@ -1,8 +1,7 @@
 .footer{
     border-top: 1px solid #e6e5e6;
-padding:40px 0px 45px;    
+    padding:40px 0px 45px;    
     justify-content: space-between;
-    background-color: white;
 }
 
 .footer-inner{
