@@ -26,6 +26,7 @@
   height: 137.47px;
   border: 1px solid rgba(0, 0, 0, 0.03);
   border-radius: 8px;
+  object-fit: cover;
 
 }
 .left2-third-left-img2{
@@ -33,14 +34,16 @@
     height: 137.47px;
     border: 1px solid rgba(0, 0, 0, 0.03);
     border-radius: 8px;
-  
+    object-fit: cover;
+
   }
   .left2-third-left-img3{
     width: 199.97px;
     height: 137.47px;
     border: 1px solid rgba(0, 0, 0, 0.03);
     border-radius: 8px;
-  
+    object-fit: cover;
+
   }
 
   .left2-third-first-below{
@@ -70,6 +73,7 @@
 
 .left2-third-first-below-4-right{
     font-size:12px;
+    color:red;
 }
 
 
