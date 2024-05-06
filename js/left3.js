@@ -31,10 +31,10 @@ window.addEventListener("load", function(){
             left3Slide += tag;
         }
 
-        const whereTag = document.querySelector(".left3withPagination .swiper-left3");
+        const whereTag = document.querySelector(".swiper-left3");
         whereTag.innerHTML = left3Slide;
 
-        const slide = new Swiper(".swiper-left3withPagination", {
+        const slide = new Swiper(".left3withPagination", {
             loop: true,
             speed: 800,
             autoplay: {
@@ -42,7 +42,7 @@ window.addEventListener("load", function(){
               disableOnInteraction: false,
             },
             pagination: {
-              el: ".left3-pagination",
+              el: ".swiper-left3-pagination",
               clickable: true,
             },
         });
