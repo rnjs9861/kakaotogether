@@ -1,0 +1,174 @@
+.main-Right1 { 
+    background-color: rgb(255, 255, 255);
+}
+.main-Right1 {
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px; 
+}  
+
+.right1-div2 {
+    padding: 23px 20px 15px;
+} 
+.main-Right1-div1 {
+    padding: 34px 26px 29px;
+    border-radius: 12px 12px 0px 0px; 
+} 
+.main-Right1-div1 { 
+    position: relative;
+    background-color: rgb(255, 232, 0);
+} 
+.h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+a[right1-a] {
+    -webkit-user-drag: none;
+}  
+.right1-a {
+    display: inline-block;
+    vertical-align: top;
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+.right1-span1 {
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-style: normal;
+    font-family: "KaKaoBold";
+    overflow-wrap: break-word;
+    line-height: 1.5;
+} 
+.right1-span2 {
+    -webkit-font-smoothing: antialiased; 
+} 
+.a:-webkit-any-link { 
+    cursor: pointer;
+}
+
+.right1-p3 {
+    padding: 10px 0px 0px;
+}
+.right1-p2 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font-style: normal;
+    font-family: "KaKaoRegular", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", dotum, 돋움, sans-serif;
+    overflow-wrap: break-word;
+} 
+.right1-p { 
+    -webkit-font-smoothing: antialiased; 
+} 
+@media only screen and (min-width: 768px) {
+    .right1-p {
+        padding-top: 12px; 
+    }
+} 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.main-Right1-two {
+    position: absolute;
+    background: url("//t1.kakaocdn.net/together_image/common/img_choonsik_231226.png") center center / cover no-repeat;
+}
+@media only screen and (min-width: 768px) {
+    .main-Right1-two {
+        right: 20px;
+        top: 19px;
+        width: 105px;
+        height: 133px;
+    }
+}
+
+.a:-webkit-any-link {
+    cursor: pointer;
+}
+.a[right] {
+    -webkit-user-drag: none;
+}
+.right1-five-a { 
+    display: inline-block;
+    vertical-align: top;
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+.right1-five-b {
+    display: block;
+}
+
+.right1-five-div2 {
+    margin: 24px 0px 0px;
+    padding: 0px 14px;
+}
+.right1-five-div1 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+    .right1-five-div1 {
+        height: 60px;
+        padding: 0px 20px;
+        margin-top: 41px;
+    }
+} 
+
+.right1-five-i {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    background: url("//t1.kakaocdn.net/together_image/common/ico_won.png") center center / cover no-repeat;
+}
+
+.right1-five-strong2 {
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+    font-style: normal;
+    font-family: "KakaoBold";
+    overflow-wrap: break-word;
+}
+.right1-five-strong3 {
+    letter-spacing: -0.15px;
+    -webkit-font-smoothing: antialiased;
+}
+@media only screen and (min-width: 768px) {
+    .right1-five-strong3 {
+        font-size: 16px;
+    }
+}
+
+.right1-five-em1 {
+    text-align: right;
+}
+.right1-five-em2 {
+    color: rgb(32, 32, 32);
+    font-style: normal;
+    font-family: "KakaoBold";
+    overflow-wrap: break-word;
+}
+.right1-five-em3 {
+    flex-grow: 1;
+    -webkit-font-smoothing: antialiased;
+}
+@media only screen and (min-width: 768px) {
+    .right1-five-em3 {
+        font-size: 18px;
+        letter-spacing: -0.18px;
+    }
+}
