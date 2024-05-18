@@ -1,0 +1,180 @@
+.left {
+  width: 700px;
+}
+
+.left1 {
+  width: 640px;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 24px 30px 32px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
+}
+
+.left1-first {
+  height:28px;
+  font-size: 20px;
+}
+
+.progressbar{
+  width: 335px;
+  height:4px;
+  background-color:red;
+  border-radius: 999px;
+}
+
+.progressbar::-webkit-progress-bar {
+  appearance: none;
+  width: 335px;
+  height:4px;
+  border-radius: 999px;
+  background-color:rgb(233, 233, 233);;
+
+
+}
+.progressbar::-webkit-progress-value{
+  border-radius: 999px;
+  background-color:red;
+
+
+}
+
+
+.left1-second{
+  padding-top:4px;
+  padding-bottom:20px;
+}
+
+.left1-third-1{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left1-third-left-img {
+  top: 0px;
+  left: 0px;
+  width: 278px;
+  height: 166px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  object-fit: cover;
+
+}
+
+.left1-third-right {
+  overflow: hidden;
+  width: 335px;
+  height: 168px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left1-third-right-second{
+  padding-top: 12px;
+}
+
+
+
+
+
+
+
+.left1-third-right-second-second{
+  justify-content: space-between;
+  display: flex;
+  font-size: 14px;
+  height: 21.97px;
+
+}
+
+.left1-third-right-second-third{
+  justify-content: space-between;
+
+  display: flex;
+  font-size: 12px;
+  height: 20.03px;
+
+}
+
+
+.left1-third-right-third{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  gap: 9px;
+  align-items: center;
+}
+
+.left1-third-right-third-left{
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgb(201, 201, 201);
+  width:163px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.left1-third-right-third-right{
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgb(201, 201, 201);
+  width:163px;
+  height: 40px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 767px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
