@@ -16,6 +16,25 @@
   font-size: 20px;
 }
 
+
+
+.progressbar::-webkit-progress-bar {
+  appearance: none;
+  width: 335px;
+  height:4px;
+  border-radius: 999px;
+  background-color:rgb(233, 233, 233);;
+
+
+}
+.progressbar::-webkit-progress-value{
+  border-radius: 999px;
+  background-color:red;
+
+
+}
+
+
 .left1-second{
   padding-top:4px;
   padding-bottom:20px;
@@ -34,6 +53,8 @@
   height: 166px;
   border: 1px solid rgba(0, 0, 0, 0.03);
   border-radius: 8px;
+  object-fit: cover;
+
 }
 
 .left1-third-right {
@@ -135,7 +156,9 @@
 
 
 
-
+@media all and (max-width: 767px){
+  
+}
 
 
 
