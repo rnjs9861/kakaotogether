@@ -1,12 +1,10 @@
 .main{
+    padding-top: 22px;
     display: flex;
-    width: calc(100% - 30px);
-    max-width: 1170px;
-    align-items: center;
+    width: 1120px;
+    max-width: 1120px;
     justify-content: space-between;
-    margin: 20px auto;
-
-    gap: 2.56%
+    margin: 20px auto 0px;
 }
 .left{
     width: 71.79%;
