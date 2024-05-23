@@ -1,0 +1,90 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.aside__content {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.together {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.together__change {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(255, 232, 0);
+  height: 250px;
+  padding: 34px 26px 29px;
+}
+.together__change__title {
+  font-size: 20px;
+}
+.together__change__today {
+  margin-top: 12px;
+  font-size: 13px;
+}
+.together__change__total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 20px;
+  background-color: #fff;
+}
+.together__change__total-text {
+  font-size: 16px;
+}
+.together__change__total-value {
+  font-size: 18px;
+}
+.together__review {
+  height: 280px;
+  padding: 31px 26px 46px;
+}
+.together__review__tag {
+  font-size: 13px;
+}
+.together__review__title {
+  font-size: 18px;
+}
+.together__review__desc {
+  font-size: 14px;
+}
+
+.badge {
+  height: 204px;
+  padding: 35px 26px;
+}
+.badge__title {
+  font-size: 20px;
+}
+.badge__desc {
+  font-size: 14px;
+}
+
+.aside__content:nth-child(4), .aside__content:nth-child(5) {
+  padding: 30px 26px;
+}
+.aside__content-title {
+  font-size: 20px;
+}
+
+.heartweather {
+  height: 387px;
+}
+.heartweather__item-info__title {
+  font-size: 15px;
+}
+.heartweather__item-info__members {
+  font-size: 13px;
+}
+
+.news {
+  height: 420px;
+}

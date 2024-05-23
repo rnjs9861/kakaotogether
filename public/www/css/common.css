@@ -1,5 +1,90 @@
-a{
-    text-decoration: none;
-    color: inherit;
+@charset "utf-8";
+
+:root {
+  --mainBlack: #202020;
+  --mainWhite: #fff;
+  --mainRed: #ff4050;
+  --mainPurple: #bb6bff;
+  --gray-400: #444;
+  --gray-500: #555;
+  --gray-600: #666;
+  --gray-700: #777;
+  --gray-800: #888;
+  --gray-900: #999;
 }
 
+@font-face {
+  font-family: "KakaoBig regular";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src:
+    url(https://t1.kakaocdn.net/together_image/fonts/kakao-big-regular.woff2)
+      format("woff2"),
+    url(https://t1.kakaocdn.net/together_image/fonts/kakao-big-regular.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "KakaoBig Bold";
+  font-style: normal;
+
+  font-display: swap;
+  src:
+    url(https://t1.kakaocdn.net/together_image/fonts/kakao-big-bold.woff2)
+      format("woff2"),
+    url(https://t1.kakaocdn.net/together_image/fonts/kakao-big-bold.woff)
+      format("woff");
+}
+
+body {
+  background-color: #eee;
+  font-family: "KakaoBig Regular", "Apple SD Gothic Neo", "Malgun Gothic",
+    "맑은 고딕", dotum, 돋움, sans-serif;
+}
+
+.bold {
+  font-family: "KakaoBig Bold";
+}
+
+.hidden {
+  position: absolute;
+  top: auto;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1120px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    padding: 0 20px;
+  }
+}
+
+/* test 코드 */
+.card__image {
+  border: 1px solid #000;
+}
+
+progress {
+  width: 100%;
+  height: 4px;
+  appearance: none;
+  &::-webkit-progress-bar {
+    overflow: hidden;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+  }
+  &::-webkit-progress-value {
+    background-color: #ff4050;
+  }
+}

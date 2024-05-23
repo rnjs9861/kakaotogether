@@ -1,15 +1,320 @@
-.main{
-    padding-top: 22px;
-    display: flex;
-    width: 1120px;
-    max-width: 1120px;
-    justify-content: space-between;
-    margin: 20px auto 0px;
+.main {
+  margin-top: 100px;
 }
-.left{
-    width: 71.79%;
+.main .main__left {
+  width: 700px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.main .aside {
+  width: 360px;
 }
 
-.right{
-    width: 25.64%;
+section {
+  border-radius: 12px;
+}
+
+.section__top img {
+  border-radius: 12px;
+}
+
+.content {
+  padding: 24px 30px 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.content__title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #202020;
+  letter-spacing: -0.3px;
+}
+.content__desc {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #666;
+  letter-spacing: -0.1px;
+}
+.last-donor .card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.last-donor .card__image {
+  width: 280px;
+  height: 168px;
+  overflow: hidden;
+  background: url("../images/c1400x960.jpg") no-repeat center/cover;
+  border-radius: 8px;
+}
+.last-donor .card__header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: #202020;
+  color: #c9c9c9;
+}
+.last-donor .card__info {
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.last-donor .card__info-title {
+  font-size: 18px;
+  line-height: 1.33;
+}
+.last-donor .card__value {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.last-donor .card__situation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.last-donor .card__btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.last-donor .card__btn button {
+  width: 163px;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  letter-spacing: -0.1px;
+  border-radius: 6px;
+}
+.fundraising .card__list {
+  display: flex;
+  gap: 20px;
+}
+.fundraising .card__item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+}
+.fundraising .card__link {
+  margin-top: 20px;
+}
+.fundraising .card__image {
+  border-radius: 8px;
+  width: 100%;
+  height: 138px;
+  margin-bottom: 10px;
+  background: url("../images/c1400x960.jpg") no-repeat center/cover;
+}
+.fundraising .card__title {
+  font-size: 14px;
+  line-height: 20px;
+}
+.fundraising .card__organization {
+  font-size: 12px;
+  line-height: 18px;
+}
+.fundraising .card__progress {
+  margin: 6px 0;
+}
+.fundraising .card__situation-current-amount {
+  font-size: 12px;
+  line-height: 20px;
+}
+.fundraising .card__situation-attainment {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.time-limit .card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.time-limit .card__image {
+  width: 280px;
+  height: 168px;
+  overflow: hidden;
+  background: url("../images/c1400x960.jpg") no-repeat center/cover;
+  border-radius: 8px;
+}
+.time-limit .card__header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background-color: #202020;
+  color: #c9c9c9;
+}
+.time-limit .card__info {
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.time-limit .card__info-title {
+  font-size: 18px;
+  line-height: 1.33;
+}
+.time-limit .card__value {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.time-limit .card__situation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.time-limit .card__btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.time-limit .card__btn button {
+  width: 163px;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  letter-spacing: -0.1px;
+  border-radius: 6px;
+}
+.fundraising-tag .content__tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.fundraising-tag .content__tags .content__tag {
+  padding: 10px 15px;
+  background-color: #000;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 999px;
+}
+.fundraising-tag .card__list {
+  display: flex;
+  gap: 20px;
+}
+.fundraising-tag .card__item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+}
+.fundraising-tag .card__link {
+  margin-top: 20px;
+}
+.fundraising-tag .card__image {
+  border-radius: 8px;
+  width: 100%;
+  height: 138px;
+  margin-bottom: 10px;
+  background: url("../images/c1400x960.jpg") no-repeat center/cover;
+}
+.fundraising-tag .card__title {
+  font-size: 14px;
+  line-height: 20px;
+}
+.fundraising-tag .card__organization {
+  font-size: 12px;
+  line-height: 18px;
+}
+.fundraising-tag .card__progress {
+  margin: 6px 0;
+}
+.fundraising-tag .card__situation-current-amount {
+  font-size: 12px;
+  line-height: 20px;
+}
+.fundraising-tag .card__situation-attainment {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card-slide .content__link {
+  display: flex;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.card-slide .content__link .content__image {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: url("../images/c1400x960.jpg") no-repeat center/cover;
+}
+.card-slide .content__link .content__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 24px 30px 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
+  background-color: #fff;
+}
+.card-slide .content__link .content__desc {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.card-slide .content__link .content__members {
+  margin-top: 15px;
+  color: rgb(187, 107, 255);
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  align-self: flex-start;
+  border: 1px solid #000;
+  padding: 5px 20px;
+}
+
+.card-news .content__link {
+  display: flex;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.card-news .content__link .content__image {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: url("../images/c1400x960.jpg") no-repeat center/cover;
+}
+.card-news .content__link .content__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 24px 30px 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
+  background-color: #fff;
+}
+.card-news .content__link .content__desc {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.card-news .content__link .content__members {
+  margin-top: 15px;
+  color: rgb(187, 107, 255);
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  align-self: flex-start;
+  border: 1px solid #000;
+  padding: 5px 20px;
+}
+
+@media (max-width: 768px) {
+  .main__inner {
+    display: flex;
+    flex-direction: column;
+  }
 }
