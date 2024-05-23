@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
             const data = result[i];
             const temp = `<a href="#" class="left4a">
             <div class="left4-left">
-                <img class="left4-left-img" src="./img/left4/${data.imgpath}" alt="거북이"></img>
+                <img class="left4-left-img" src="./images/left4/${data.imgpath}" alt="거북이"></img>
             </div>
             <div class="left4-right">
                 <div class="left4-right-1">${data.tag}</div>
